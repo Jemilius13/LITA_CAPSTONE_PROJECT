@@ -89,7 +89,7 @@ These datasets collectively provide a comprehensive view of sales performance, c
 ----------------------------------
  1. ### TOTAL SALES BY PRODUCT
 
-##### PIVOT TABLE:
+#### PIVOT TABLE:
 --------------------
 ![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/9f24fae7-9be9-49bf-b75b-93f15478bd23)
 
@@ -121,8 +121,17 @@ The current allocation suggests prioritizing resources towards high-performing p
 To maximize revenue, the company should maintain high stock levels and promotional efforts for top-selling items (Shoes and Shirts). For lower-performing products like Jackets and Socks, targeted strategies, such as seasonal promotions or bundling with popular items, may help boost sales. The overall sales trajectory suggests a well-balanced product mix, but improvements in marketing and inventory for underperforming items could enhance total sales performance.
 
 
+ 2. ### TOTAL SALES BY REGION
+    -----------------------------------
+#### PIVOT TABLE:
+
+![TOTAL SALES BY REGION, PIVOT TABLE](https://github.com/user-attachments/assets/1a0bc07d-a316-4b96-bdcd-71105faf840a)
 
 
+#### PIVOT CHART FOR TOTAL SALES BY REGION:
+-----------------------------------
+
+![TOTAL SALES BY REGION,PIECHART](https://github.com/user-attachments/assets/0b1ec372-b8c4-4fa3-b000-d2f81f99cd40)
 
 
 
