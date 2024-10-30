@@ -82,7 +82,13 @@ These datasets collectively provide a comprehensive view of sales performance, c
 ##### PIVOT TABLE:
 --------------------
 
-![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/454f8801-b54f-4c15-80ef-e121d724648f)
+![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/14d03135-2d21-438d-b467-6c8777e64cea)
+
+#### PIVOT CHART FOR TOTAL SALES BY-PRODUCT:
+------------------------
+
+![TOTAL SALES BY PRODUCT](https://github.com/user-attachments/assets/e0658318-da00-4358-934c-06b74c6b803b)
+
 
    
 
