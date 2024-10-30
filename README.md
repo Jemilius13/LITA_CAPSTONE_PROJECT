@@ -12,24 +12,34 @@ Overall, this Capstone Project aims to enhance our data analysis skills and demo
 ### Projecet title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
 
 
-[Capstone Project Overview](#capstone-project-overview)
+[CAPSTONE PROJECT OVERVIEW](#capstone-project-overview)
 
-[Project Objectives](#project-objectives)
+[PROJECT OVERVIEW](#project-objectives)
 
-[Expected Outcomes](#expected-outcomes)
+[EXPECTED OUTCOMES](#expected-outcomes)
 
-### Capstone Project Overview: 
+[PROJECT 1 SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE](#project-1-sales-performance-analysis-for-a-retail-store)
+
+[DATA SOURCES](#data-sources)
+
+[METRICS OF FOCUS](#metrics-of-focus)
+
+[TOOLS USED](#tools-used)
+
+[DATA VISUALIZATION](#data-visualization)
+
+### CAPSTONE PROJECT OVERVIEW: 
 -----------------------------
 The Capstone Project is a comprehensive data analysis initiative designed to apply advanced analytical techniques using Excel, SQL, and Power BI. This project aims to harness data from multiple datasets to uncover insights, identify trends, and drive informed decision-making.
 
-#### Project Objectives:
+#### PROJECT OBJECTIVES:
 -----------------------------------
   - Data Collection and Preparation: Gather various datasets relevant to the project's theme, ensuring they are clean, organized, and ready for analysis.
   - Data Analysis Using Excel: Utilize Excel's powerful functions and features, such as pivot tables, formulas, and charts, to conduct exploratory data analysis and derive preliminary insights.
   - Database Management with SQL: Employ SQL to manipulate and query data from relational databases. This includes filtering, aggregating, and joining datasets to prepare for deeper analysis.
   - Data Visualization with Power BI: Create interactive dashboards and visual reports in Power BI, showcasing the findings from the analysis. This allows stakeholders to easily interpret data trends and patterns.
 
-#### Expected Outcomes:
+#### EXPECTED OUTCOMES:
 ----------------------------------
 A comprehensive report detailing the methodologies used, findings, and recommendations based on the analysis.
 Interactive visualizations that present the data in an engaging format, facilitating better understanding and decision-making.
@@ -46,7 +56,7 @@ In this project, you are tasked with analyzing the sales performance of a retail
      2.   Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
      3.   Create any other interesting report.
 
-#### Data Sources
+#### DATA SOURCES
 --------------
 The Data sources include the following key points:
    1. ORDER_ID: A unique identifier assigned to each order in a system.
@@ -81,15 +91,50 @@ These datasets collectively provide a comprehensive view of sales performance, c
 
 ##### PIVOT TABLE:
 --------------------
+![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/9f24fae7-9be9-49bf-b75b-93f15478bd23)
 
-![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/14d03135-2d21-438d-b467-6c8777e64cea)
+
 
 #### PIVOT CHART FOR TOTAL SALES BY-PRODUCT:
 ------------------------
 
-![TOTAL SALES BY PRODUCT](https://github.com/user-attachments/assets/e0658318-da00-4358-934c-06b74c6b803b)
+![TOTAL SALES BY PRODUCT, GRAPH](https://github.com/user-attachments/assets/673dedaa-1618-4bd7-98fc-9a91e6b8e60b)
 
 
+![TOTAL SALES BY PRODUCT, GRAPHLINE](https://github.com/user-attachments/assets/b302f5a3-eb34-423d-b4b6-c370f60e5b90)
+
+
+DEDUCTIONS:
+-------------------------------------------
+
+  1.  General Total Sales Trajectory: The chart shows a positive upward trend in total sales across different products, indicating that sales are relatively high for certain products and lower for others.
+  2.  Product Performance:
+       - Shoes have the highest sales, reaching over 600,000 units, making them the most popular product in this dataset.
+       - Shirts also perform well, with nearly 500,000 units sold.
+       - Hats and Gloves have moderate sales, in the range of 300,000 units.
+       - Jackets and Socks have the lowest sales figures, with Jackets slightly outperforming Socks.
+  3.   Overall Product Allocation Strategy:
+The current allocation suggests prioritizing resources towards high-performing products (Shoes and Shirts) while developing targeted strategies to improve the sales of lower-performing ones (Jackets and Socks).
+
+#### CONCLUSION
+-------------------------
+To maximize revenue, the company should maintain high stock levels and promotional efforts for top-selling items (Shoes and Shirts). For lower-performing products like Jackets and Socks, targeted strategies, such as seasonal promotions or bundling with popular items, may help boost sales. The overall sales trajectory suggests a well-balanced product mix, but improvements in marketing and inventory for underperforming items could enhance total sales performance.
+
+
+
+
+
+
+
+
+     
+
+
+
+
+    
+
+    
    
 
 
