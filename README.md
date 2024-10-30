@@ -9,7 +9,16 @@ Next, SQL will be employed for more advanced data querying and management, allow
 Finally, we will harness the power of Power BI to create interactive visualizations and dashboards that present our findings in a user-friendly format. This will enable stakeholders to engage with the data dynamically, facilitating a deeper understanding of the insights derived from the analysis.
 Overall, this Capstone Project aims to enhance our data analysis skills and demonstrate our ability to effectively utilize analytical tools to solve real-world problems, ultimately contributing to data-driven decision-making processes.
 
-### Capstone Project Overview: Data Analysis
+### Projecet title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
+
+
+[Capstone Project Overview](#capstone-project-overview)
+
+[Project Objectives](#project-objectives)
+
+[Expected Outcomes](#expected-outcomes)
+
+### Capstone Project Overview: 
 -----------------------------
 The Capstone Project is a comprehensive data analysis initiative designed to apply advanced analytical techniques using Excel, SQL, and Power BI. This project aims to harness data from multiple datasets to uncover insights, identify trends, and drive informed decision-making.
 
