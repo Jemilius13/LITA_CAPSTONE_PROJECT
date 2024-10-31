@@ -47,9 +47,9 @@ Enhanced skills in data manipulation, analysis, and visualization using industry
 
 This capstone project reinforces analytical skills and provides practical experience handling real-world data scenarios, preparing participants for future roles in data analysis and business intelligence.
 
-### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
+### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING EXCEL
 -------------------
-In this project, I am tasked with analyzing the sales performance of a retail store. You will need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
+In this project, I am tasked with analyzing the sales performance of a retail store. I'll  need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
 
   -  Excel:
      1.  Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month.
@@ -123,7 +123,8 @@ To maximize revenue, the company should maintain high stock levels and promotion
 
  2. ### TOTAL SALES BY REGION
     -----------------------------------
-## PIVOT TABLE:
+ PIVOT TABLE:
+----------
 
 ![TOTAL SALES BY REGION, PIVOT TABLE](https://github.com/user-attachments/assets/1a0bc07d-a316-4b96-bdcd-71105faf840a)
 
@@ -155,7 +156,8 @@ The South region is the clear leader in sales, making it a critical area for mai
 
 ### TOTAL SALES BY MONTHS
 -------------------
-## PIVOT TABLE:
+ PIVOT TABLE:
+ ----------------
 
 ![TOTAL SALES BY MONTH, PIVOT TABLE](https://github.com/user-attachments/assets/58b6face-6474-455e-aef9-7f863f18ba08)
 
@@ -252,6 +254,7 @@ PIVOT TABLE
 
 
     
+### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL
 
     
    
