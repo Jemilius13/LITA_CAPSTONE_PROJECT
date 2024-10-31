@@ -197,6 +197,7 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 
 ![Average total sales for each product](https://github.com/user-attachments/assets/e1889fa6-5ac1-4272-8a41-10133a1adcae)
 
+![Average total sales,pivot](https://github.com/user-attachments/assets/4116ecd5-b3ac-428a-a247-5baf717200a7)
 
 
   #### Total Revenue by Region using Excel Functions
@@ -216,18 +217,36 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 ![top 5 products](https://github.com/user-attachments/assets/61ae587d-4725-4a54-bd18-5e4d7c2dedf4)
 
 
+### TOTAL SALES BY MONTH/YEAR IN 2023
+--------------
+ PIVOT TABLE
+ ---------
+ 
+![TOTAL SALES  2023](https://github.com/user-attachments/assets/06a2f507-f454-4de3-979f-7b09de6f6504)
 
 
+#### FILTERED CHART FOR THE YEAR 2023
+-----------------
+
+![TOTAL SALES BY Y2023](https://github.com/user-attachments/assets/672fdbfd-f59b-4c38-9b3e-244efff223bc)
+
+![TOTAL SALES BY MONTH, GRAPHLINE](https://github.com/user-attachments/assets/2e287f3a-da20-4220-8f24-e322b181a5bf)
 
 
+### TOTAL SALES BY MONTH/YEAR IN 2024
+
+PIVOT TABLE
+--------------------------
+![TOTAL SALES BY Y2024,PIVOT TABLE](https://github.com/user-attachments/assets/241ddd78-87bc-4db0-8482-60ef25d23760)
 
 
+#### FILTERED CHART FOR THE YEAR 2024
+------------
 
-
-
-
+![TOTAL SALES BY Y2024](https://github.com/user-attachments/assets/edb74127-facc-44e2-b908-a11dd46f73f4)
 
      
+![TOTAL SALES BY Y2024,LINE](https://github.com/user-attachments/assets/99872072-600d-42ee-95b4-34b92e9e88ba)
 
 
 
