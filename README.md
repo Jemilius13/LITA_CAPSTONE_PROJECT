@@ -1,4 +1,4 @@
-![TOTAL REVENUE BY REGION EXCEL](https://github.com/user-attachments/assets/c9afc2bd-e308-4505-bf67-cd5a5e108548)# LITA_CAPSTONE_PROJECT
+# LITA_CAPSTONE_PROJECT
 ------------------------------------------------
 Introduction to the Capstone Project on Data Analysis. 
 The Capstone Project is a comprehensive data analysis initiative that uses datasets to extract meaningful insights and drive informed decision-making. This project integrates various data analysis tools and techniques, specifically Excel, SQL, and Power BI, to showcase a holistic data management and visualization approach.
@@ -198,7 +198,7 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 
 
 
-    #### Average Total Revenue by Region using Excel Functions
+  #### Average Total Revenue by Region using Excel Functions
                 =SUMIF(D:D,"South",H:H)
                 =SUMIF(D:D,"North",H:H)
                 =SUMIF(D:D,"West",H:H)
@@ -207,7 +207,10 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 ![TOTAL REVENUE BY REGION EXCEL](https://github.com/user-attachments/assets/5e211231-c8f5-49a1-b659-64ebea7cd320)
 
 
+####  Other interesting report
+--------------
 
+![top 5 products](https://github.com/user-attachments/assets/61ae587d-4725-4a54-bd18-5e4d7c2dedf4)
 
 
 
