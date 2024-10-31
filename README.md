@@ -194,18 +194,21 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
                 =AVERAGEIF(C:C,"Gloves",H:H)
                 =AVERAGEIF(C:C,"Jacket",H:H)
                 =AVERAGEIF(C:C,"Socks",H:H)
-![AVERAGE TOTAL SALES BY PRODUCTS](https://github.com/user-attachments/assets/434ba962-98c9-4c23-be53-38e11b6c8791)
+
+![Average total sales for each product](https://github.com/user-attachments/assets/e1889fa6-5ac1-4272-8a41-10133a1adcae)
 
 
 
-  #### Average Total Revenue by Region using Excel Functions
+  #### Total Revenue by Region using Excel Functions
                 =SUMIF(D:D,"South",H:H)
                 =SUMIF(D:D,"North",H:H)
                 =SUMIF(D:D,"West",H:H)
                 =SUMIF(D:D,"East",H:H)
 
-![TOTAL REVENUE BY REGION EXCEL](https://github.com/user-attachments/assets/5e211231-c8f5-49a1-b659-64ebea7cd320)
+![TOTAL REVENUE BY REGION](https://github.com/user-attachments/assets/631070a0-96b5-4d04-bd77-1116fcad3fda)
 
+
+![TOTAL SALES BY REGION, PIVOT TABLE](https://github.com/user-attachments/assets/408c6946-4822-498e-a7aa-b44c7e007db1)
 
 ####  Other interesting report
 --------------
