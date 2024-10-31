@@ -138,8 +138,20 @@ To maximize revenue, the company should maintain high stock levels and promotion
 
 DEDUCTIONS: 
 --------------
-  1. General Total Sales by Region Trajectory: The sales trend across regions shows a sharp increase from West to South. Sales in the South region are significantly higher (927,820)     
-                                                compared to the other regions, indicating that this region has the highest demand or market penetration.
+  1. General Total Sales by Region Trajectory: The sales trend across regions sharply increased from West to South. Sales in the South region are significantly higher (927,820)     
+     compared to the other regions, this region has the highest demand or market penetration.
+  2. Product Performance on Total Sales by Region: Although the chart doesn’t break down product performance by region, all products likely have a higher concentration of sales 
+     in the South, given their overall share. Lower sales in the West suggest either lower demand across all products or the potential need for stronger marketing or distribution efforts.
+  3. Overall Region Allocation Strategy: The current region allocation indicates that the South is the dominant market, and strategies to maintain or further strengthen its share are essential. The East and North regions present moderate performance but show potential for improvement through focused marketing. The West region is the weakest, suggesting the need        for an in-depth evaluation to identify growth opportunities or to consider alternative strategies tailored to this region's market dynamics.
+
+#### CONCLUSION
+----------------------------
+The South region is the clear leader in sales, making it a critical area for maintaining high inventory and a strong marketing focus. The West region’s lower performance suggests a need for strategic improvements in market penetration or customer outreach. The East and North regions perform moderately, with potential for growth through targeted campaigns. Overall, focusing on the South while developing tailored strategies for the other regions could help optimize total sales across all markets.
+
+
+
+
+
 
 
      
