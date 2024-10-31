@@ -136,6 +136,11 @@ To maximize revenue, the company should maintain high stock levels and promotion
 ![TOTAL SALES BY REGION, LINECHART](https://github.com/user-attachments/assets/50468c01-f97d-4588-a42a-474fd7c3d6ff)
 
 
+DEDUCTIONS: 
+--------------
+  1. General Total Sales by Region Trajectory: The sales trend across regions shows a sharp increase from West to South. Sales in the South region are significantly higher (927,820)     
+                                                compared to the other regions, indicating that this region has the highest demand or market penetration.
+
 
      
 
