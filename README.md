@@ -9,7 +9,7 @@ Next, SQL will be employed for more advanced data querying and management, allow
 Finally, we will harness the power of Power BI to create interactive visualizations and dashboards that present our findings in a user-friendly format. This will enable stakeholders to engage with the data dynamically, facilitating a deeper understanding of the insights derived from the analysis.
 Overall, this Capstone Project aims to enhance our data analysis skills and demonstrate our ability to effectively utilize analytical tools to solve real-world problems, ultimately contributing to data-driven decision-making processes.
 
-### Projecet title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
+### Project title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
 
 
 [CAPSTONE PROJECT OVERVIEW](#capstone-project-overview)
@@ -49,7 +49,7 @@ This capstone project reinforces analytical skills and provides practical experi
 
 ### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
 -------------------
-In this project, you are tasked with analyzing the sales performance of a retail store. You will need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
+In this project, I am tasked with analyzing the sales performance of a retail store. You will need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
 
   -  Excel:
      1.  Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month.
@@ -140,9 +140,12 @@ DEDUCTIONS:
 --------------
   1. General Total Sales by Region Trajectory: The sales trend across regions sharply increased from West to South. Sales in the South region are significantly higher (927,820)     
      compared to the other regions, this region has the highest demand or market penetration.
-  2. Product Performance on Total Sales by Region: Although the chart doesn’t break down product performance by region, all products likely have a higher concentration of sales 
-     in the South, given their overall share. Lower sales in the West suggest either lower demand across all products or the potential need for stronger marketing or distribution efforts.
-  3. Overall Region Allocation Strategy: The current region allocation indicates that the South is the dominant market, and strategies to maintain or further strengthen its share are essential. The East and North regions present moderate performance but show potential for improvement through focused marketing. The West region is the weakest, suggesting the need        for an in-depth evaluation to identify growth opportunities or to consider alternative strategies tailored to this region's market dynamics.
+  2. Product Performance on Total Sales by Region:
+     The South region's dominance suggests that it might have the highest demand across all product lines, making it a priority for inventory and marketing investments.
+     The North and West regions, having smaller portions of the total sales, could represent opportunities for growth. Expanding marketing strategies or conducting market research in 
+     these regions might reveal untapped potential.
+     The East region, while not as high as the South, shows steady performance, suggesting it might also benefit from targeted promotions to increase its share further.
+  4. Overall Region Allocation Strategy: The current region allocation indicates that the South is the dominant market, and strategies to maintain or further strengthen its share are essential. The East and North regions present moderate performance but show potential for improvement through focused marketing. The West region is the weakest, suggesting the need        for an in-depth evaluation to identify growth opportunities or to consider alternative strategies tailored to this region's market dynamics.
 
 #### CONCLUSION
 ----------------------------
@@ -162,6 +165,14 @@ The South region is the clear leader in sales, making it a critical area for mai
 
 
 ![TOTAL SALES BY MONTH, GRAPHLINE](https://github.com/user-attachments/assets/fd053dc7-a019-4a27-8c95-b60b6199f6dc)
+
+DEDUCTIONS:
+------------------------
+  1. General Total Sales by Month Trajectory: The sales trajectory shows significant fluctuations throughout the year, with a peak in February and a general decline afterward. There’s          another small increase around June and July, followed by a gradual decline in the later months. The lowest points occur in April and November-December.
+  2.  Product Performance on Total Sales by Month:
+     The peak in February could indicate a seasonal promotion, holiday, or sales event that drives higher demand.
+     The mid-year rise around June-July might be due to mid-year sales, summer demand, or other market activities.
+     The sharp drops in April and the end of the year may indicate a need for targeted strategies in these months, such as promotional events or discounts to increase sales.
 
 
      
