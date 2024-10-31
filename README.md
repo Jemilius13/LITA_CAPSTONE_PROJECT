@@ -49,7 +49,7 @@ This capstone project reinforces analytical skills and provides practical experi
 
 ### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING EXCEL
 -------------------
-In this project, I am tasked with analyzing the sales performance of a retail store. I'll  need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
+In this project, I am tasked with analyzing the sales performance of a retail store. I'll  need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. 
 
   -  Excel:
      1.  Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month.
@@ -254,22 +254,123 @@ PIVOT TABLE
 
 
     
-### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL
 
+
+### PROJECT 1B: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL
+-----------------------
+In this project, I am tasked with analyzing the sales performance of a retail store. I'll  need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. This project uses SQL (Structured Query Language) to analyze and extract meaningful insights from a dataset. The objective is to showcase how SQL can be used to query, manipulate, and transform data to solve business problems, uncover trends, and generate actionable findings. Working with a structured database, various SQL commands and techniques will be applied, including data filtering, aggregation, joins, and subqueries.
+
+
+  ### EXPLORATORY DATA ANALYSIS 
+Write queries to extract key insights based on the following questions.
+----------------
+ 1. Retrieve the total sales for each product category.
+ 2. Find the number of sales transactions in each region.
+ 3. Find the highest-selling product by total sales value.
+ 4. Calculate total revenue per product.
+ 5. Calculate monthly sales totals for the current year.
+ 6. Find the top 5 customers by total purchase amount.
+ 7. Calculate the percentage of total sales contributed by each region.
+ 8. Identify products with no sales in the last
+
+
+#### QUERIES
+--------------
+            1.  --------Retrieve the total sales for each product Category-----
+                        SELECT 
+                         Product, 
+                        SUM(Revenue_sales) AS total_sales
+                        FROM  [dbo].[SalesData]
+                        GROUP BY 
+                        Product;
+
+             
+              
+              
+              
+              2.  --------Find the number of sales transactions in each region----
+                           SELECT 
+                            Region, 
+                            COUNT(Orderid) AS num_transactions
+                            FROM  [dbo].[SalesData]
+                            GROUP BY 
+                            Region;
+
+
+              
+               3.    ------Find the highest-selling product by total sales value-----
+                          SELECT 
+                          product, 
+                          SUM(Revenue_sales) AS total_sales_value
+                          FROM  [dbo].[SalesData]
+                          GROUP BY product
+                          ORDER BY 
+                          total_sales_value DESC
+             
+
+
+                4. -----TOTAL REVENUE PER PRODUCT----------
+                        SELECT 
+                        Product, 
+                        SUM(Revenue_sales) AS total_revenue
+                        FROM  [dbo].[SalesData]
+                        GROUP BY 
+                        Product;
     
    
 
+                5. ----- Monthly sales totals for the current year----
+                        SELECT 
+                        DATEPART(YEAR, OrderDate) AS year,
+                        DATEPART(MONTH, OrderDate) AS month,
+                        SUM(Revenue_sales) AS monthly_sales
+                        FROM [dbo].[SalesData] 
+                        WHERE 
+                        DATEPART(YEAR, OrderDate) = DATEPART(YEAR, CURRENT_TIMESTAMP)
+                        GROUP BY 
+                        DATEPART(YEAR, OrderDate), DATEPART(MONTH, OrderDate)
+                        ORDER BY 
+                        year, month;
+                                            
+                                            
+                        select OrderDate, sum(Revenue_sales) as Monthlysales_total from  [dbo].[SalesData] 
+                        where OrderDate between '2024-01-01' and '2024-12-31'
+                        group by OrderDate
+                        order by OrderDate
+
+
+                6. --------TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT------
+                          SELECT TOP (5) [Customer_Id],
+                          SUM(Revenue_sales) AS total_purchases
+                          FROM  [dbo].[SalesData]
+                          GROUP BY 
+                          Customer_Id
+                          ORDER BY 
+                          total_purchases DESC
+
+
+
+                7. -----Percentage of Total Sales each region-----
+                         WITH [Region] AS (
+                        SELECT [Region], SUM(Revenue_sales) AS Sales
+                        FROM [dbo].[SalesData]
+                        GROUP BY [Region] )
+                        SELECT [Region], (Sales * 100.0 / (SELECT SUM(Revenue_sales) from [dbo].[SalesData] )) AS SalesPercentage
+                         FROM Region;
 
 
 
 
 
-
-
-
-
-
-
+                8.    -------Products with no sales in the last quarter----
+                              SELECT 
+                              DISTINCT s1.[Product]
+                              FROM [dbo].[SalesData] s1
+                              LEFT JOIN 
+                              [dbo].[SalesData] s2 ON s1.[Product] = s2.[Product] 
+                              AND s2.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
+                              WHERE 
+                              s2.[Product] IS NULL;
 
 
 
