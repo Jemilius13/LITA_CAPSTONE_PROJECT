@@ -251,6 +251,11 @@ PIVOT TABLE
 ![TOTAL SALES BY Y2024,LINE](https://github.com/user-attachments/assets/99872072-600d-42ee-95b4-34b92e9e88ba)
 
 
+----------------------------------------------------------
+
+#### NO. OF SALES TRANSACTION IN EACH REGION
+-----------
+![salestransaction pivottable](https://github.com/user-attachments/assets/a254d31e-d158-49ac-be71-a29a4bc005e4)
 
 
     
@@ -284,7 +289,8 @@ Write queries to extract key insights based on the following questions.
                         GROUP BY 
                         Product;
 
-             
+  ![Q1 SALESDATA](https://github.com/user-attachments/assets/85b185f7-fa67-449f-920f-67d3bae9a6dd)
+           
               
               
               
@@ -296,6 +302,7 @@ Write queries to extract key insights based on the following questions.
                             GROUP BY 
                             Region;
 
+![Q2 SALESDATA](https://github.com/user-attachments/assets/52fd77b3-f58f-476a-a84b-4e698993ac21)
 
               
                3.    ------Find the highest-selling product by total sales value-----
@@ -307,6 +314,7 @@ Write queries to extract key insights based on the following questions.
                           ORDER BY 
                           total_sales_value DESC
              
+![Q3 SALESDATA](https://github.com/user-attachments/assets/dd8780da-50eb-4ec3-8d1d-68980e141ce5)
 
 
                 4. -----TOTAL REVENUE PER PRODUCT----------
@@ -317,7 +325,8 @@ Write queries to extract key insights based on the following questions.
                         GROUP BY 
                         Product;
     
-   
+   ![Q1 SALESDATA](https://github.com/user-attachments/assets/b9bc4478-13b5-480c-9f1e-49a70dfa2a49)
+
 
                 5. ----- Monthly sales totals for the current year----
                         SELECT 
@@ -338,6 +347,8 @@ Write queries to extract key insights based on the following questions.
                         group by OrderDate
                         order by OrderDate
 
+![q5 salesdata](https://github.com/user-attachments/assets/16c8d2f5-8850-4bea-8f73-26e6e517d00b)
+
 
                 6. --------TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT------
                           SELECT TOP (5) [Customer_Id],
@@ -348,6 +359,7 @@ Write queries to extract key insights based on the following questions.
                           ORDER BY 
                           total_purchases DESC
 
+![Q6 salesdata](https://github.com/user-attachments/assets/c1a2b7c7-9ffe-412d-99f9-acc84e5ca94b)
 
 
                 7. -----Percentage of Total Sales each region-----
@@ -358,6 +370,7 @@ Write queries to extract key insights based on the following questions.
                         SELECT [Region], (Sales * 100.0 / (SELECT SUM(Revenue_sales) from [dbo].[SalesData] )) AS SalesPercentage
                          FROM Region;
 
+![Q7 SALESDATA](https://github.com/user-attachments/assets/2bbf96dc-ad86-49ad-862a-1fb180a66e6c)
 
 
 
@@ -373,6 +386,7 @@ Write queries to extract key insights based on the following questions.
                               s2.[Product] IS NULL;
 
 
+![Q8 SALESDATA](https://github.com/user-attachments/assets/f11998f1-d19f-4fb3-8ed4-655b0012d2fd)
 
 
 
