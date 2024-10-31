@@ -133,6 +133,7 @@ To maximize revenue, the company should maintain high stock levels and promotion
 
 ![TOTAL SALES BY REGION,PIECHART](https://github.com/user-attachments/assets/0b1ec372-b8c4-4fa3-b000-d2f81f99cd40)
 
+![TOTAL SALES BY REGION, LINECHART](https://github.com/user-attachments/assets/50468c01-f97d-4588-a42a-474fd7c3d6ff)
 
 
 
