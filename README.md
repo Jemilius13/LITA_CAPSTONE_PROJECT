@@ -1,4 +1,4 @@
-# LITA_CAPSTONE_PROJECT
+![TOTAL REVENUE BY REGION EXCEL](https://github.com/user-attachments/assets/c9afc2bd-e308-4505-bf67-cd5a5e108548)# LITA_CAPSTONE_PROJECT
 ------------------------------------------------
 Introduction to the Capstone Project on Data Analysis. 
 The Capstone Project is a comprehensive data analysis initiative that uses datasets to extract meaningful insights and drive informed decision-making. This project integrates various data analysis tools and techniques, specifically Excel, SQL, and Power BI, to showcase a holistic data management and visualization approach.
@@ -142,7 +142,7 @@ DEDUCTIONS:
      compared to the other regions, this region has the highest demand or market penetration.
   2. Product Performance on Total Sales by Region:
      The South region's dominance suggests that it might have the highest demand across all product lines, making it a priority for inventory and marketing investments.
-     The North and West regions, having smaller portions of the total sales, could represent opportunities for growth. Expanding marketing strategies or conducting market research in 
+     The North and West regions, having smaller portions of the total sales, could represent growth opportunities. Expanding marketing strategies or conducting market research in 
      these regions might reveal untapped potential.
      The East region, while not as high as the South, shows steady performance, suggesting it might also benefit from targeted promotions to increase its share further.
   4. Overall Region Allocation Strategy: The current region allocation indicates that the South is the dominant market, and strategies to maintain or further strengthen its share are essential. The East and North regions present moderate performance but show potential for improvement through focused marketing. The West region is the weakest, suggesting the need        for an in-depth evaluation to identify growth opportunities or to consider alternative strategies tailored to this region's market dynamics.
@@ -185,11 +185,26 @@ DEDUCTIONS:
 The sales analysis identifies Shoes and Shirts as the top-performing products, with the South region leading in sales and notable seasonal peaks in February and mid-year. Fluctuations in sales highlight the need for targeted promotional strategies during low-sales months and resource optimization during peak periods. Implementing a well-aligned monthly allocation strategy will enhance inventory management, staffing, and marketing efforts, ultimately fostering sustainable growth and improving customer satisfaction throughout the year.
 
 
+#### Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
+------------------
+   #### Average total sales for each product using Excel Functions
+                =AVERAGEIF(C:C,"Shirt",H:H)
+                =AVERAGEIF(C:C,"Shoes",H:H)
+                =AVERAGEIF(C:C,"Hats",H:H)
+                =AVERAGEIF(C:C,"Gloves",H:H)
+                =AVERAGEIF(C:C,"Jacket",H:H)
+                =AVERAGEIF(C:C,"Socks",H:H)
+![AVERAGE TOTAL SALES BY PRODUCTS](https://github.com/user-attachments/assets/434ba962-98c9-4c23-be53-38e11b6c8791)
 
 
 
+    #### Average Total Revenue by Region using Excel Functions
+                =SUMIF(D:D,"South",H:H)
+                =SUMIF(D:D,"North",H:H)
+                =SUMIF(D:D,"West",H:H)
+                =SUMIF(D:D,"East",H:H)
 
-
+![TOTAL REVENUE BY REGION EXCEL](https://github.com/user-attachments/assets/5e211231-c8f5-49a1-b659-64ebea7cd320)
 
 
 
