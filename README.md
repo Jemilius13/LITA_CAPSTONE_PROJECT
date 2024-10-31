@@ -32,14 +32,14 @@ Overall, this Capstone Project aims to enhance our data analysis skills and demo
 -----------------------------
 The Capstone Project is a comprehensive data analysis initiative designed to apply advanced analytical techniques using Excel, SQL, and Power BI. This project aims to harness data from multiple datasets to uncover insights, identify trends, and drive informed decision-making.
 
-#### PROJECT OBJECTIVES:
+### PROJECT OBJECTIVES:
 -----------------------------------
   - Data Collection and Preparation: Gather various datasets relevant to the project's theme, ensuring they are clean, organized, and ready for analysis.
   - Data Analysis Using Excel: Utilize Excel's powerful functions and features, such as pivot tables, formulas, and charts, to conduct exploratory data analysis and derive preliminary insights.
   - Database Management with SQL: Employ SQL to manipulate and query data from relational databases. This includes filtering, aggregating, and joining datasets to prepare for deeper analysis.
   - Data Visualization with Power BI: Create interactive dashboards and visual reports in Power BI, showcasing the findings from the analysis. This allows stakeholders to easily interpret data trends and patterns.
 
-#### EXPECTED OUTCOMES:
+### EXPECTED OUTCOMES:
 ----------------------------------
 A comprehensive report detailing the methodologies used, findings, and recommendations based on the analysis.
 Interactive visualizations that present the data in an engaging format, facilitating better understanding and decision-making.
@@ -47,7 +47,7 @@ Enhanced skills in data manipulation, analysis, and visualization using industry
 
 This capstone project reinforces analytical skills and provides practical experience handling real-world data scenarios, preparing participants for future roles in data analysis and business intelligence.
 
-#### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
+### PROJECT 1: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
 -------------------
 In this project, you are tasked with analyzing the sales performance of a retail store. You will need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
 
@@ -56,7 +56,7 @@ In this project, you are tasked with analyzing the sales performance of a retail
      2.   Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
      3.   Create any other interesting report.
 
-#### DATA SOURCES
+### DATA SOURCES
 --------------
 The Data sources include the following key points:
    1. ORDER_ID: A unique identifier assigned to each order in a system.
@@ -69,7 +69,7 @@ The Data sources include the following key points:
       
 These datasets collectively provide a comprehensive view of sales performance, customer behavior, and market dynamics, enabling informed decision-making.
 
-#### METRICS OF FOCUS
+### METRICS OF FOCUS
 ------------------
  - Total Sales By Product: The total revenue generated from each product, calculated by summing up the sales of each product across all orders. This helps identify the best-selling and most profitable products.
  - Total Sales By Region: The total revenue generated within each geographic region, is useful for understanding regional demand and performance.
@@ -78,18 +78,18 @@ These datasets collectively provide a comprehensive view of sales performance, c
      revenue.
   - Total Revenue by Region: The overall revenue generated within each region, found by summing all sales in that region. This metric is valuable for understanding which regions contribute the most to total revenue.
 
-#### TOOLS USED
+### TOOLS USED
 -------------------------
  - Microsoft Excel: 
     - Pivot Tables: Summarizing data and generating insights based on revenue, units sold, and transaction categories.
     - Formulas and Functions: Calculate performance metrics and automate processes like sorting and filtering.
     - Data Visualizations (Charts, Graphs): To create visual representations of trends, comparisons, and key insights. 
 
-#### DATA VISUALIZATION
+### DATA VISUALIZATION
 ----------------------------------
  1. ### TOTAL SALES BY PRODUCT
 
-#### PIVOT TABLE:
+## PIVOT TABLE:
 --------------------
 ![TOTAL SALES BY PRODUCT, PIVOT TABLE](https://github.com/user-attachments/assets/9f24fae7-9be9-49bf-b75b-93f15478bd23)
 
@@ -116,14 +116,14 @@ DEDUCTIONS:
   3.   Overall Product Allocation Strategy:
 The current allocation suggests prioritizing resources towards high-performing products (Shoes and Shirts) while developing targeted strategies to improve the sales of lower-performing ones (Jackets and Socks).
 
-#### CONCLUSION
+### CONCLUSION
 -------------------------
 To maximize revenue, the company should maintain high stock levels and promotional efforts for top-selling items (Shoes and Shirts). For lower-performing products like Jackets and Socks, targeted strategies, such as seasonal promotions or bundling with popular items, may help boost sales. The overall sales trajectory suggests a well-balanced product mix, but improvements in marketing and inventory for underperforming items could enhance total sales performance.
 
 
  2. ### TOTAL SALES BY REGION
     -----------------------------------
-#### PIVOT TABLE:
+## PIVOT TABLE:
 
 ![TOTAL SALES BY REGION, PIVOT TABLE](https://github.com/user-attachments/assets/1a0bc07d-a316-4b96-bdcd-71105faf840a)
 
@@ -149,9 +149,19 @@ DEDUCTIONS:
 The South region is the clear leader in sales, making it a critical area for maintaining high inventory and a strong marketing focus. The West region’s lower performance suggests a need for strategic improvements in market penetration or customer outreach. The East and North regions perform moderately, with potential for growth through targeted campaigns. Overall, focusing on the South while developing tailored strategies for the other regions could help optimize total sales across all markets.
 
 
+### TOTAL SALES BY MONTHS
+-------------------
+## PIVOT TABLE:
+
+![TOTAL SALES BY MONTH, PIVOT TABLE](https://github.com/user-attachments/assets/58b6face-6474-455e-aef9-7f863f18ba08)
+
+#### PIVOT CHART FOR TOTAL SALES BY MONTH:
+------------------------------------------------
+
+![TOTAL SALES BY MONTH, GRAPH](https://github.com/user-attachments/assets/3e168820-b66d-4725-b30c-23548da528c1)
 
 
-
+![TOTAL SALES BY MONTH, GRAPHLINE](https://github.com/user-attachments/assets/fd053dc7-a019-4a27-8c95-b60b6199f6dc)
 
 
      
