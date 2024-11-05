@@ -30,6 +30,13 @@ Overall, this Capstone Project aims to enhance our data analysis skills and demo
 
 [OTHER INTERESTING REPORTS](#other-interesting-reports)
 
+[PROJECT 1B SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL](#project-1b-sales-performance-analysis-for-a-retail-store-using-sql)
+
+
+
+
+
+
 ### CAPSTONE PROJECT OVERVIEW: 
 -----------------------------
 The Capstone Project is a comprehensive data analysis initiative designed to apply advanced analytical techniques using Excel, SQL, and Power BI. This project aims to harness data from multiple datasets to uncover insights, identify trends, and drive informed decision-making.
@@ -152,7 +159,7 @@ DEDUCTIONS:
 
 #### CONCLUSION
 ----------------------------
-The South region is the clear leader in sales, making it a critical area for maintaining high inventory and a strong marketing focus. The West region’s lower performance suggests a need for strategic improvements in market penetration or customer outreach. The East and North regions perform moderately, with potential for growth through targeted campaigns. Overall, focusing on the South while developing tailored strategies for the other regions could help optimize total sales across all markets.
+The South region is the clear leader in sales, making it a critical area for maintaining high inventory and a strong marketing focus. The West region’s lower performance suggests a need for strategic improvements in market penetration or customer outreach. The East and North regions perform moderately, with potential for growth through targeted campaigns. Overall, focusing on the South while developing tailored strategies for the other region could help optimize total sales across all markets.
 
 
 
@@ -477,7 +484,7 @@ Insights:
 ![REGIONAL BREAKDOWN](https://github.com/user-attachments/assets/b8b8a944-2b54-45c4-a896-8ce157b39ee3)
 
 
-Visual Elements: Heatmaps and geospatial visuals with region-based slicers offer an interactive view, allowing users to drill down into specific regions for more detailed analysis.
+
 
 
 
