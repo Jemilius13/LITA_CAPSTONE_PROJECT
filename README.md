@@ -32,6 +32,17 @@ Overall, this Capstone Project aims to enhance our data analysis skills and demo
 
 [PROJECT 1B SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL](#project-1b-sales-performance-analysis-for-a-retail-store-using-sql)
 
+[TOOLS USED](#tools-used)
+
+[EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+
+[QUERIES AND OUTPUT](#queries-and-output)
+
+[PROJECT 1C SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING POWERBI](#project-1c-sales-performance-analysis-for-a-retail-store-using-powerbi)
+
+[TOOLS USED](#tools-used)
+
+[DASHBOARD OVERVIEW](#dashboard-overview)
 
 
 
@@ -223,7 +234,7 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 
 ![TOTAL SALES BY REGION, PIVOT TABLE](https://github.com/user-attachments/assets/408c6946-4822-498e-a7aa-b44c7e007db1)
 
-####  Other interesting report
+####  OTHER INTERESTING REPORTS
 --------------
 
 ![top 5 products](https://github.com/user-attachments/assets/61ae587d-4725-4a54-bd18-5e4d7c2dedf4)
@@ -439,10 +450,7 @@ Insights:
      These metrics can provide a solid foundation for understanding sales volume, product popularity, and average sales per transaction.
        Visual Elements: The monthly revenue and average order value appear as single-value cards to enhance focus.
 
-
-
-![SALES OVERVIEW PBI](https://github.com/user-attachments/assets/3f9adccc-7b9c-4e7d-80fc-cdc4f9cb7532)
-
+![Sales Overview](https://github.com/user-attachments/assets/5bfb4501-3182-403e-ac55-396bf079e136)
 
 
   2. ### Top-Performing Products
@@ -457,12 +465,11 @@ Insights:
   4. Monthly Sales Trend: This tracks sales over time, broken down by month, to show patterns or seasonal changes in demand. It’s useful for spotting growth trends, declines, and cyclical patterns, which can inform inventory and marketing strategies.
      Visual Elements: The bar chart for sales volume offers an intuitive comparison of top products, and contribution margin metrics appear as KPIs for quick insights.
 
- ![MONTHLY SALES TREND](https://github.com/user-attachments/assets/f56d9f9e-d798-498b-b0eb-229e96cc2757)
-   
 
-![TOP PERFORMANCE SALES](https://github.com/user-attachments/assets/be0a7af6-2fc1-43be-8863-43ef58c0e709)
+![montly sales trend](https://github.com/user-attachments/assets/8dfe7d8e-58ac-468f-8046-609aee88f6de)
 
 
+![product performance](https://github.com/user-attachments/assets/0c36a07e-876f-4e15-98cf-4e82ec707a50)
 
 
 3. ### Regional Breakdown
@@ -478,14 +485,13 @@ Insights:
  3. Revenue Distribution Map: This is a visual representation (often a heatmap or colored map) showing revenue across different regions. It helps to quickly see the distribution of 
      revenue geographically, with higher or lower revenue areas distinguished by color gradients. This map can be useful for spotting patterns and regional trends at a glance.
 
-![PIECHART SALES](https://github.com/user-attachments/assets/e5a43734-c410-4e30-bd55-6360df4a8d79)
+
+![regional breakdown](https://github.com/user-attachments/assets/981eedaf-cec4-486c-8caa-b9dabb1daa94)
 
 
-![REGIONAL BREAKDOWN](https://github.com/user-attachments/assets/b8b8a944-2b54-45c4-a896-8ce157b39ee3)
-
-
-
-
+### Conclusion:
+Analyzing these metrics offers a comprehensive view of product performance, revealing best-selling items, high-revenue generators, and monthly sales patterns. This data can guide inventory management, pricing strategies, and promotional campaigns to enhance profitability and address gaps in sales performance.
 
 
 
+### SPECIAL THANKS TO LITA FOR THIS OPPORTUNITY
