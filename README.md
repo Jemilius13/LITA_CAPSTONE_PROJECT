@@ -161,7 +161,8 @@ The South region is the clear leader in sales, making it a critical area for mai
  PIVOT TABLE:
  ----------------
 
-![TOTAL SALES BY MONTH, PIVOT TABLE](https://github.com/user-attachments/assets/58b6face-6474-455e-aef9-7f863f18ba08)
+![total sales by month, redo](https://github.com/user-attachments/assets/458fae2a-368c-4bd6-836e-2a3888be8def)
+
 
 #### PIVOT CHART FOR TOTAL SALES BY MONTH:
 ------------------------------------------------
@@ -226,7 +227,8 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
  PIVOT TABLE
  ---------
  
-![TOTAL SALES  2023](https://github.com/user-attachments/assets/06a2f507-f454-4de3-979f-7b09de6f6504)
+![TOTAL SALES BY Y2023](https://github.com/user-attachments/assets/1df5e6a7-ecb2-4c0a-9977-aa5a6fc63edd)
+
 
 
 #### FILTERED CHART FOR THE YEAR 2023
@@ -241,7 +243,8 @@ The sales analysis identifies Shoes and Shirts as the top-performing products, w
 
 PIVOT TABLE
 --------------------------
-![TOTAL SALES BY Y2024,PIVOT TABLE](https://github.com/user-attachments/assets/241ddd78-87bc-4db0-8482-60ef25d23760)
+
+![TOTAL SALES BY Y2024,PIVOT TABLE](https://github.com/user-attachments/assets/8b5f84b0-2ea5-4c2d-b05f-0a2a08a4f3f9)
 
 
 #### FILTERED CHART FOR THE YEAR 2024
@@ -265,7 +268,7 @@ PIVOT TABLE
 
 ### PROJECT 1B: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING SQL
 -----------------------
-In this project, I am tasked with analyzing the sales performance of a retail store. I'll need to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. This project uses SQL (Structured Query Language) to analyze and extract meaningful insights from a dataset. The objective is to showcase how SQL can be used to query, manipulate, and transform data to solve business problems, uncover trends, and generate actionable findings. Working with a structured database, various SQL commands and techniques will be applied, including data filtering, aggregation, joins, and subqueries.
+In this project, I am tasked with analyzing the sales performance of a retail store. I must explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. This project uses SQL (Structured Query Language) to analyze and extract meaningful insights from a dataset. The objective is to showcase how SQL can query, manipulate, and transform data to solve business problems, uncover trends, and generate actionable findings. Various SQL commands and techniques will be applied with a structured database, including data filtering, aggregation, joins, and subqueries.
 
 #### TOOLS USED
 ----------
@@ -402,6 +405,79 @@ Write queries to extract key insights based on the following questions.
 
 
 
+## PROJECT 1C: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING POWERBI
+----------------------
+I am creating a dashboard that visualizes the insights found in Excel and SQL. The dashboard should include a sales overview, top-performing products, and regional breakdowns.
+
+### TOOLS USED
+Microsoft PowerBI Desktop
+
+### Dashboard Overview
+This dashboard provides an interactive and comprehensive view of our sales performance, top-performing products, and regional sales breakdown. By combining insights from Excel analysis and SQL queries, we’ve organized the dashboard into three main sections to support strategic decision-making and uncover trends within our customer base.
+
+1. ### Sales Overview
+Purpose: This section summarizes total sales, monthly revenue trends, and average transaction values to give a high-level perspective on sales performance.
+
+Key Metrics: Sum of Total Sales, Average Sales per product, Sum of Quantity, Average of Quantity, Count of OrderID.
+
+Insights:
+  1. Sum of Total Sales: This is the total sales revenue generated. It’s calculated by summing up the sales amount across all orders, giving a view of overall sales performance.
+  2. Average Sales per Product: This shows the average revenue each product brings in. It’s calculated by dividing the total sales by the number of unique products, providing insight into
+      which products generate higher or lower average sales
+  3. Sum of Quantity: This metric adds up the total quantity of items sold across all orders. It helps understand overall product demand.
+  4. Average of Quantity: This is the average quantity sold per product, calculated by dividing the total quantity by the number of unique products or by the number of orders, depending
+      on your analysis. This can show if some products sell in larger or smaller quantities on average.
+  5. Count of OrderID: This counts all unique orders placed. It helps you see how many transactions have occurred, offering insight into order volume and customer engagement.
+
+     These metrics can provide a solid foundation for understanding sales volume, product popularity, and average sales per transaction.
+       Visual Elements: The monthly revenue and average order value appear as single-value cards to enhance focus.
+
+
+
+![SALES OVERVIEW PBI](https://github.com/user-attachments/assets/3f9adccc-7b9c-4e7d-80fc-cdc4f9cb7532)
+
+
+
+  2. ### Top-Performing Products
+Purpose: Identifying top products helps optimize inventory, promotional efforts, and product development to align with customer preferences.
+
+Key Metrics:  Products by Sales ranking, Total Revenue per Product, total sales of product and quantity, and Monthly Sales Trend
+
+Insights:
+  1. Products by Sales Ranking: This ranks products based on their sales performance, typically by total revenue or total units sold. It highlights the top-selling products and can be useful for identifying which products are most popular or generate the highest revenue.
+  2. Total Revenue per Product: This is the sum of sales revenue generated by each product. It helps to show which products contribute most to overall revenue, indicating key products for business focus.
+  3. Total Sales of Product and Quantity: This metric combines both revenue and quantity sold for each product. It shows the overall financial contribution (total sales) and demand (quantity sold) for each product, giving a complete view of both value and volume performance.
+  4. Monthly Sales Trend: This tracks sales over time, broken down by month, to show patterns or seasonal changes in demand. It’s useful for spotting growth trends, declines, and cyclical patterns, which can inform inventory and marketing strategies.
+     Visual Elements: The bar chart for sales volume offers an intuitive comparison of top products, and contribution margin metrics appear as KPIs for quick insights.
+
+ ![MONTHLY SALES TREND](https://github.com/user-attachments/assets/f56d9f9e-d798-498b-b0eb-229e96cc2757)
+   
+
+![TOP PERFORMANCE SALES](https://github.com/user-attachments/assets/be0a7af6-2fc1-43be-8863-43ef58c0e709)
+
+
+
+
+3. ### Regional Breakdown
+Purpose: Regional analysis provides an understanding of geographical sales trends, helping target regions with high potential and adjusting strategies for underperforming areas.
+
+Key Metrics: Sales by Region, Regions by Revenue, and Revenue Distribution Map.
+
+Insights:
+ 1. Sales by Region: This breaks down sales figures by geographic region. It shows which regions are generating the most sales, helping to identify areas with strong performance or 
+    potential growth opportunities.
+ 2. Regions by Revenue: This metric ranks regions based on the total revenue they generate, allowing a clear comparison of which areas contribute most to the business's revenue. It can 
+    also reveal regions with lower performance that may need targeted strategies.
+ 3. Revenue Distribution Map: This is a visual representation (often a heatmap or colored map) showing revenue across different regions. It helps to quickly see the distribution of 
+     revenue geographically, with higher or lower revenue areas distinguished by color gradients. This map can be useful for spotting patterns and regional trends at a glance.
+
+![PIECHART SALES](https://github.com/user-attachments/assets/e5a43734-c410-4e30-bd55-6360df4a8d79)
+
+
+![REGIONAL BREAKDOWN](https://github.com/user-attachments/assets/b8b8a944-2b54-45c4-a896-8ce157b39ee3)
+
+
+Visual Elements: Heatmaps and geospatial visuals with region-based slicers offer an interactive view, allowing users to drill down into specific regions for more detailed analysis.
 
 
 
