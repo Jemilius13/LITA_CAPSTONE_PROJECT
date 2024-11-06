@@ -14,7 +14,7 @@ Overall, this Capstone Project aims to enhance our data analysis skills and demo
 
 [CAPSTONE PROJECT OVERVIEW](#capstone-project-overview)
 
-[PROJECT OVERVIEW](#project-objectives)
+[PROJECT OBJECTIVES](#project-objectives)
 
 [EXPECTED OUTCOMES](#expected-outcomes)
 
